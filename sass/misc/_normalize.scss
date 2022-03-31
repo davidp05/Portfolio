@@ -5,6 +5,23 @@
  
 }
 
+$titulos:(
+h1: 3em,
+h2: 2em,
+h3: 1em,
+h4: 0.75em,
+h5: 0.5em,
+h6: 0.35em,
+);
+
+/*$h1: map-get($titulos, h1);*/
+
+h1 {
+    font-size: map-get($map: $titulos, $key: h1);
+}
+
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;

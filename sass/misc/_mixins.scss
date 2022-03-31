@@ -1,0 +1,9 @@
+@mixin boton {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: white;
+    border-bottom: 1px solid $color-primario;
+}
