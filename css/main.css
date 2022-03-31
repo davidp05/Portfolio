@@ -95,6 +95,9 @@ h1 {
 
 /* Fin - Footer */
 /* VISTAS */
+.program {
+  max-width: 150px; }
+
 /* Inicio - Pagina contacto */
 /* Inicio - Formulario */
 .contact-form form {
