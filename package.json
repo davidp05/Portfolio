@@ -1,0 +1,28 @@
+{
+  "name": "portfolio-perren-david",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss sass/index.scss css/main.css",
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidp05/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidp05/Portfolio/issues"
+  },
+  "homepage": "https://github.com/davidp05/Portfolio#readme",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "npm": "^8.5.5"
+  }
+}

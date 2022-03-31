@@ -1,0 +1,22 @@
+/* Comienzo del Footer */
+
+.footer {
+        div{
+        padding: 4rem 0;
+        text-align: center;
+        color: $color-secundario;
+        }
+        ul li{
+            display: inline-block;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+        }
+}
+
+/* Fin - Footer */ 

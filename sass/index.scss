@@ -1,0 +1,18 @@
+/* VARIABLES */
+@import './misc/variables';
+
+/* GLOBALES */
+@import './misc/normalize';
+
+/* PARCIALES */
+@import './partials/header';
+@import './partials/footer';
+
+/* VISTAS */
+@import './views/home';
+@import './views/sobre_mi';
+@import './views/habilidades';
+@import './views/portfolio';
+@import './views/contacto';
+
+
