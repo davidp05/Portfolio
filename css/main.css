@@ -95,11 +95,26 @@ h1 {
 
 /* Fin - Footer */
 /* VISTAS */
+.logo {
+  max-width: 10em; }
+
+.logo {
+  max-width: 10em; }
+
 .program {
   max-width: 150px; }
 
+.logo {
+  max-width: 10em; }
+
+.logo {
+  max-width: 10em; }
+
 /* Inicio - Pagina contacto */
 /* Inicio - Formulario */
+.logo {
+  max-width: 10em; }
+
 .contact-form form {
   display: grid;
   grid-template-columns: 1fr 1fr; }
