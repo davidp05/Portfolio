@@ -1,3 +1,14 @@
 .logo {
     max-width: 10em;
 }
+
+.gallery{
+    img{
+        height: 100%;
+        width: 100%;
+        flex-shrink: 0;
+        object-fit: cover;
+        position: sticky;
+        top: 0;
+    }   
+}
