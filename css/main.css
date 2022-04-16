@@ -125,7 +125,23 @@ h2 {
   display: inline-block; }
 
 .program {
-  max-width: 150px; }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  align-items: center;
+  gap: 1em;
+  overflow: hidden;
+  position: relative; }
+
+.program > img {
+  z-index: -1;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 200ms; }
+
+.program:hover > img {
+  transform: scale(1.1); }
 
 .logo {
   max-width: 10em; }
