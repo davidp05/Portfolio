@@ -70,7 +70,10 @@ h1 {
     background-color: #348FA0; }
   .container a {
     text-decoration: none;
-    color: white; } }
+    color: white; }
+  .grid {
+    display: flex;
+    flex-wrap: wrap; } }
 
 @media screen and (min-width: 768px) {
   .logo-nav-container {
@@ -81,6 +84,9 @@ h1 {
   .container a {
     text-decoration: none;
     color: #E1F4F9; }
+  .grid {
+    display: flex;
+    flex-wrap: wrap; }
   .navigation ul {
     margin: 0;
     padding: 0;
